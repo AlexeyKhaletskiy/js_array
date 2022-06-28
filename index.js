@@ -93,7 +93,7 @@ array17 = [2, 2, 1];
 array18 = [1, 2, 1];
 
 function isEqualNext(array) {
-  for (let i = 0; i < array.length; i++) {
+  for (let i = 1; i <= array.length; i++) {
     if (array[i] === array[i - 1]) {
       return true;
     }
